@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Green Valley Coffee",
+        "location": "Sakleshpur",
+        "contact": "+91 9945678901",
+        "rating": 4.8,
+        "type": "Premium Exporter"
+    },
+    {
+        "id": 2,
+        "name": "Malnad Trading Co",
+        "location": "Sakleshpur",
+        "contact": "+91 9845123456",
+        "rating": 4.6,
+        "type": "Wholesale Buyer"
+    },
+    {
+        "id": 3,
+        "name": "Highland Coffee Works",
+        "location": "Hassan",
+        "contact": "+91 9845678901",
+        "rating": 4.7,
+        "type": "Premium Exporter"
+    },
+    {
+        "id": 4,
+        "name": "Western Ghats Traders",
+        "location": "Hassan",
+        "contact": "+91 9945123456",
+        "rating": 4.5,
+        "type": "Local Buyer"
+    },
+    {
+        "id": 5,
+        "name": "Mountain Brew Trading",
+        "location": "Sakleshpur",
+        "contact": "+91 9845678902",
+        "rating": 4.9,
+        "type": "Premium Exporter"
+    }
+]
