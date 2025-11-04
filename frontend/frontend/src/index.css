@@ -67,7 +67,33 @@ body {
   border-radius: 8px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.price-group {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: var(--shadow-sm);
+}
+
+.price-group-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.pepper-price {
+  grid-column: span 2;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: var(--shadow-sm);
+  margin-top: 0.5rem;
 }
 
 .trader-card .price-item {
@@ -167,10 +193,11 @@ body {
 }
 
 .filter-bar select {
-  padding: 0.75rem 2rem 0.75rem 1rem;
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   margin: 0 1rem;
+  min-width: 160px;
   font-size: 0.875rem;
   color: var(--color-text);
   background-color: white;
@@ -178,8 +205,10 @@ body {
   appearance: none;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right 0.5rem center;
+  background-position: right 0.75rem center;
   background-size: 1em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .filter-bar select:focus {
